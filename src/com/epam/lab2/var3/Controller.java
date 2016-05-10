@@ -57,10 +57,10 @@ public class Controller {
 	* @return Boolean.
 	*/
 	private boolean checkNumber(String string) {
-	    if (string.matches("[1-9][0-9]")) { // "65"
-	    	return true;
-	    } else {
-	    	return false;
-	    }
+		if (string.matches("[1-9][0-9]")) { // "65"
+		    return true;
+		} else {
+		    return false;
+		}
 	}
 }
