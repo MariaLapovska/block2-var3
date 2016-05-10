@@ -32,7 +32,7 @@ public class Controller {
 	 * @param scanner Input scanner to read from.
 	 * @return Four digits positive integer value from input.
 	 */
-    	public int inputFourDigitIntValueWithScanner(Scanner scanner) {
+    	private int inputFourDigitIntValueWithScanner(Scanner scanner) {
     		String str;
     	
         	while (true) {
@@ -55,7 +55,7 @@ public class Controller {
 	* @param string String to check.
 	* @return boolean.
 	*/
-	public boolean checkNumber(String string) {
+	private boolean checkNumber(String string) {
 		if (string.matches("[1-9][0-9]{3}")) { // "1023"
 		    return true;
 		} else {
