@@ -54,7 +54,7 @@ public class Controller {
 	* Checks if the given string contains 2 digit integer value.
 	* 
 	* @param string String to check.
-	* @return Boolean.
+	* @return boolean.
 	*/
 	private boolean checkNumber(String string) {
 		if (string.matches("[1-9][0-9]")) { // "65"
